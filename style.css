@@ -53,10 +53,13 @@ button {
     border: none;
     transition: 1s all ease-in-out;
 }
-
+button:focus {
+   
+    transform: rotate(-360deg);
+  }
 button:hover {
     background-color: hsl(150, 78%, 45%);
-    transform: scale(1.1, 1.1);
+    transform: rotate(360deg);
 }
 
 .fa-moon {
