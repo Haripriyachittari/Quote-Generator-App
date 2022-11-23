@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/838e11aa0d.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Quote generator app</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="card">
+    <span class="fa-solid fa-moon" id="dark-theme"></span>
+    <h5>QUOTE <span id="quoteId">#205</span></h5>
+    <h3 id="quote">Your future depends on many things, but mostly on you.</h3>
+    <picture>
+      <source media="(max-width:550px)" srcset="/images/pattern-divider-mobile.svg">
+      <img src="/images/pattern-divider-desktop.svg" alt="">
+    </picture>
+    <button id="quote-btn" onclick="fetchQuote()"> <img src="/images/icon-dice.svg" alt=""> </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

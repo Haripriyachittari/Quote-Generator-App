@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+    --bg-color: hsl(218, 23%, 16%)
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: white;
+}
+
+.darktheme {
+    --bg-color: rgb(240, 240, 240);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 30vh;
+    border-radius: 8px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 1em 2em 2em;
+    text-align: center;
+}
+
+.card h5 {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+
+}
+
+button {
+    position: absolute;
+    bottom: 27%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    border: none;
+    transition: 1s all ease-in-out;
+}
+
+button:hover {
+    background-color: hsl(150, 78%, 45%);
+    transform: scale(1.1, 1.1);
+}
+
+.fa-moon {
+    font-size: 30px;
+    color: hsl(150, 78%, 45%);
+    position: absolute;
+    top: 2%;
+    left: 1%;
+
+}
+
+.fa-sun {
+    font-size: 30px;
+    color: hsl(150, 78%, 45%);
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 80%;
+    }
+
+}
