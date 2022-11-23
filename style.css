@@ -8,10 +8,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Manrope', sans-serif;
     height: 100vh;
     background-color: var(--bg-color);
     color: white;
+}
+h4{
+    color: hsl(150, 100%, 66%);;
 }
 
 .darktheme {
@@ -40,7 +44,7 @@ body {
 
 button {
     position: absolute;
-    bottom: 22%;
+    bottom: 19%;
     padding: 10px;
     cursor: pointer;
     background-color: hsl(150, 100%, 66%);
