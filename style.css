@@ -40,7 +40,7 @@ body {
 
 button {
     position: absolute;
-    bottom: 24%;
+    bottom: 22%;
     padding: 10px;
     cursor: pointer;
     background-color: hsl(150, 100%, 66%);
