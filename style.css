@@ -15,7 +15,8 @@ body {
     color: white;
 }
 h4{
-    color: hsl(150, 100%, 66%);;
+    color: hsl(150, 100%, 66%);
+    text-align: center;
 }
 
 .darktheme {
