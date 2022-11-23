@@ -45,7 +45,7 @@ h4{
 
 button {
     position: absolute;
-   
+    bottom: 19%;
     padding: 10px;
     cursor: pointer;
     background-color: hsl(150, 100%, 66%);
