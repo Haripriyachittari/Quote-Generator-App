@@ -25,10 +25,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: 30vh;
+    height: 35vh;
     border-radius: 8px;
     background-color: hsl(217, 19%, 24%);
-    padding: 1em 2em 2em;
+    padding: 1em 2em 2.5em;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
 
 button {
     position: absolute;
-    bottom: 27%;
+    bottom: 24%;
     padding: 10px;
     cursor: pointer;
     background-color: hsl(150, 100%, 66%);
@@ -58,17 +58,20 @@ button:hover {
     font-size: 30px;
     color: hsl(150, 78%, 45%);
     position: absolute;
-    top: 2%;
-    left: 1%;
+    top: 4%;
+    left: 2%;
 
 }
-
+#author{
+    font-style: italic;
+    margin-top:0;
+}
 .fa-sun {
     font-size: 30px;
     color: hsl(150, 78%, 45%);
     position: absolute;
-    top: 2%;
-    left: 1%;
+    top: 4%;
+    left: 2%;
 }
 
 @media screen and (max-width:768px) {
