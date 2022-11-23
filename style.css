@@ -54,10 +54,16 @@ button {
     transition: 1s all ease-in-out;
 }
 
-button:hover {
-    background-color: hsl(150, 78%, 45%);
-    transform: scale(1.1, 1.1);
-}
+button:focus {
+    transform: rotate(-180deg);
+   }
+   button:active {
+     transform: rotate(180deg);
+    }
+ button:hover {
+     background-color: hsl(150, 78%, 45%);
+     transform: rotate(360deg);
+ }
 
 .fa-moon {
     font-size: 30px;
