@@ -54,8 +54,11 @@ button {
     transition: 1s all ease-in-out;
 }
 button:focus {
-   transform: rotate(-360deg);
+   transform: rotate(-180deg);
   }
+  button:active {
+    transform: rotate(180deg);
+   }
 button:hover {
     background-color: hsl(150, 78%, 45%);
     transform: rotate(360deg);
